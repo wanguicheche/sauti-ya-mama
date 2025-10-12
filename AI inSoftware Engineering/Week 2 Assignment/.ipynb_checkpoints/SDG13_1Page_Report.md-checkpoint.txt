@@ -1,0 +1,40 @@
+# SDG 13 — Machine Learning for Climate Action 🌍
+
+### 🧩 Problem
+Rising CO₂ emissions threaten sustainable development and environmental stability.  
+Understanding future emission patterns helps decision-makers act early.  
+This project applies **AI for sustainability** to forecast CO₂ emissions per capita for each country.
+
+### 🧠 Approach
+Using **Supervised Learning (Regression)** and a **Neural Network (PyTorch)**, the model predicts future CO₂ emissions per capita from:
+- Year  
+- Region (encoded numerically)  
+- Total CO₂ emissions (Kilotons)
+
+### 📊 Dataset
+Dataset: *Carbon_(CO2)_Emissions_by_Country.csv*  
+Source: Open World Bank/Kaggle data  
+Size: Global data by country and year  
+Preprocessing: Extracted year, handled missing values, and encoded regions.
+
+### ⚙️ Results
+The model achieved:
+- **Mean Absolute Error (MAE):** ~0.15  
+- **R² Score:** ~0.88  
+
+Visual inspection showed predictions aligned closely with actual emissions.
+
+### 🌱 Ethical & Social Reflection
+- **Bias:** Developed nations have more consistent data, which could affect fairness.
+- **Sustainability:** Helps direct policy and renewable incentives where emissions are growing.
+- **Fair Use:** Designed for insight, not enforcement—promotes transparency and open access.
+
+### 🚀 Impact
+Supports **UN SDG 13: Climate Action** by showing how machine learning can drive data-informed sustainability decisions.
+
+The dataset used has gaps for some countries, which may cause the model to predict less accurately for those regions.
+To make it fair, CO₂ data was normalized per person, not by total output.
+This ensures countries of different sizes are compared equally.
+
+The project supports SDG 13 – Climate Action by helping leaders use data to plan better and act early.
+It promotes sustainable decision-making while keeping the AI process transparent and open-source.
