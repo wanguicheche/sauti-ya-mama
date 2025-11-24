@@ -388,11 +388,11 @@ app.get('/', (req, res) => {
         sections: [
           {
             title: "Mama Speaks",
-            text: "My daughter, your period shows your body is healthy and growing. Don't be ashamed — it's part of being a woman."
+            text: "My daughter, your period shows your body is healthy and growing. Don't be ashamed, it's part of being a woman."
           },
           {
             title: "Mama's Wisdom",
-            text: "A pad pouch helps your daughter stay ready — include two pads, tissue, wet wipes, and a clean panty. Remind her to change pads every 4–6 hours and to dry underwear in sunlight."
+            text: "A pad pouch helps your daughter stay ready; include two pads, tissue, wet wipes, and a clean panty. Remind her to change pads every 4–6 hours and to dry underwear in sunlight."
           },
           {
             title: "Ask Her",
